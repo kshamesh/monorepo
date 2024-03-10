@@ -1,0 +1,14 @@
+{
+  "name": "@kshamesh/root",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main:start": "pnpm -F @kshamesh/app1 run start",
+    "second:start": "pnpm -F @kshamesh/app2 run start",
+    "start": "pnpm -r run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
