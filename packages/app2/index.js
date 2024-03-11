@@ -1,1 +1,1 @@
-console.log("hello from inside app2");
+console.log("hello from inside second");

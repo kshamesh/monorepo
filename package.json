@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "main:start": "pnpm -F @kshamesh/app1 run start",
-    "second:start": "pnpm -F @kshamesh/app2 run start",
+    "start:app1": "pnpm -F @kshamesh/app1 run start",
+    "start:app2": "pnpm -F @kshamesh/app2 run start",
     "start": "pnpm -r run start"
   },
   "keywords": [],

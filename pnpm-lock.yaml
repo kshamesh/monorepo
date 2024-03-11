@@ -1,0 +1,19 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  packages/app1:
+    dependencies:
+      '@kshamesh/common':
+        specifier: 1.0.0
+        version: link:../common
+
+  packages/app2: {}
+
+  packages/common: {}
