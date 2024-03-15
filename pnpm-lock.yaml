@@ -8,12 +8,10 @@ importers:
 
   .: {}
 
-  packages/app1:
+  packages/main:
     dependencies:
-      '@kshamesh/common':
-        specifier: 1.0.0
-        version: link:../common
+      '@compe/second':
+        specifier: workspace:*
+        version: link:../second
 
-  packages/app2: {}
-
-  packages/common: {}
+  packages/second: {}

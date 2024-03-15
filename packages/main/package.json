@@ -1,5 +1,5 @@
 {
-  "name": "@kshamesh/app2",
+  "name": "@compe/main",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@compe/second": "workspace:*"
+  }
 }

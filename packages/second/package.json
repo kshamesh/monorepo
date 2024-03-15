@@ -1,6 +1,6 @@
 {
-  "name": "@kshamesh/common",
-  "version": "1.0.0",
+  "name": "@compe/second",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
